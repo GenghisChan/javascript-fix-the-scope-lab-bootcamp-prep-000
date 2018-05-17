@@ -26,6 +26,5 @@ function add2(n) {
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
-var theFunk = function() {
-  return "FUNKY!"
-}
+var theFunk = funkyFunction()()
+
